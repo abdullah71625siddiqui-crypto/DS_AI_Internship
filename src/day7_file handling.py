@@ -23,10 +23,12 @@ with open("student.csv", "r") as file:
             
 # Task3
    
+file = input("Enter file: ")
 try:
-    with open("nigga", "r") as file:
-       print(file.read())
-except FileNotFoundError:
-     print("File not found")
+    with open(file) as f:
+        r = f.read()
+        print(r)
+except:
+    print("Oops! That file doesn't exist yet")
 
             
