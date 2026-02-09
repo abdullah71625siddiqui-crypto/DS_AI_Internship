@@ -1,0 +1,7 @@
+NAME,GRADE,STATUS
+,,
+Alice     A       PASS,A,PASS
+,,
+Bob       B       PASS,B,PASS
+,,
+Charlie   F      FAIL,F,FAIL
