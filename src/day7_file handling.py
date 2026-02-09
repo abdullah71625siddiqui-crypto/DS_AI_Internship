@@ -2,7 +2,7 @@
 
 with open("bbt", "a") as file:
     bbt=input("Enter your name and daily goal:")
-    file.write(bbt)
+    file.write("\n"+bbt)
     
     
 with open("bbt", "r") as file:
